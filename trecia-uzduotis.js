@@ -3,11 +3,11 @@ window.onload = function() {
     let y = +prompt("Įveskite antrą skaičių");
 
     if (x > y) {
-        alert("-1");
+        alert(-1);
     } else if (x < y) {
-        alert("1");
+        alert(1);
     }
     else {
-        alert("0");
+        alert(0);
     }
 }
